@@ -15,7 +15,7 @@ import android.widget.Toast;
  */
 
 public class TitleLayout extends LinearLayout {
-    public TitleLayout(Context context, AttributeSet attrs){
+    public TitleLayout(Context context, AttributeSet attrs){//重写父类的构造函数
         super(context,attrs);
         LayoutInflater.from(context).inflate(R.layout.title,this);
         Button titleBack = (Button) findViewById(R.id.title_back);
